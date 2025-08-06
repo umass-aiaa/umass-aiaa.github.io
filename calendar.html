@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calendar | UMass AIAA</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff;
+    }
+    nav {
+      background-color: #881c1c;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .calendar-section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      max-width: 900px;
+      height: 600px;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="join.html">Join</a>
+    <a href="leadership.html">Leadership</a>
+    <a href="calendar.html"><strong>Calendar</strong></a>
+    <a href="events.html">Events</a>
+    <a href="linktree.html">Linktree</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section class="calendar-section">
+    <h2>Upcoming Events</h2>
+    <iframe src="https://calendar.google.com/calendar/embed?src=038a571cac33a6a27f1fbac4ec385ee0aac5bfd60da255fa8a1744b4d9bfd6c0%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+  </section>
+</body>
+</html>
