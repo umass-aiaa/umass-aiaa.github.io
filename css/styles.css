@@ -64,3 +64,11 @@ footer {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+.tagline i {
+  margin-left: 8px;
+  color: #ffffff; /* or #881c1c for UMass Maroon */
+}
+.tagline i {
+  font-size: 1.2em; /* adjust as needed */
+}
+
