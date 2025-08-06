@@ -41,25 +41,15 @@ footer {
 }
 
 .about-box {
-  background-color: ##881c1c;
+  background-color: #ffffff;  /* white box */
   padding: 40px;
   border-radius: 15px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   max-width: 850px;
   text-align: left;
-  color: #fff;
+  color: #333; /* dark gray text for contrast */
 }
 
-.about-box h2 {
-  font-size: 2.6em;
-  margin-bottom: 25px;
-  color: #ffffff;
-}
-
-.about-box p {
-  font-size: 1.1em;
-  line-height: 1.7;
-  margin-bottom: 20px;
 }
 .launch-banner {
   font-size: 2em;
