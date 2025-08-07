@@ -34,21 +34,12 @@ footer {
   color: #555;
 }
 .about-section {
-  background-color: #0b0d1a; /* Optional: dark background like your site */
+  background-color: #0b0d1a; 
   display: flex;
   justify-content: center;
   padding: 60px 20px;
 }
 
-.about-box {
-  background-color: #ffffff;  /* white box */
-  padding: 40px;
-  border-radius: 15px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-  max-width: 850px;
-  text-align: left;
-  color: #333; /* dark gray text for contrast */
-}
 
 
 .launch-banner {
