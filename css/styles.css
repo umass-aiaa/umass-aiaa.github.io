@@ -103,11 +103,13 @@ footer {
 }
 
 .about-box {
-  background-color: #8C1C13 !important;
-}
-.about-box {
-  background-color: #8C1C13 !important;
+  background-color: #8C1C13 !important; /* UMass maroon */
   color: white !important;
-  border: 1px solid #ffffff33; /* subtle white border */
+  padding: 40px;
+  border-radius: 15px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  max-width: 850px;
+  text-align: left;
+  border: 1px solid #ffffff33; /* optional subtle white border */
 }
+
