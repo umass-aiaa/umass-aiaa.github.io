@@ -103,4 +103,8 @@ footer {
   text-align: left;
   border: 1px solid #ffffff33; /* optional subtle white border */
 }
+.welcome-heading {
+  text-align: center;
+  margin-top: 40px;
+}
 
