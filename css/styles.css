@@ -105,3 +105,9 @@ footer {
 .about-box {
   background-color: #8C1C13 !important;
 }
+.about-box {
+  background-color: #8C1C13 !important;
+  color: white !important;
+  border: 1px solid #ffffff33; /* subtle white border */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
